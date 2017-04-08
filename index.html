@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Buntoo</title>
+<meta name="author" content="Bunty Chakraborty">   
+  <meta charset="utf-8">
+<link rel="shortcut icon" href="images/icon.ico"> 
+ <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+form{
+
+margin:15%
+
+}
+body{
+margin-top:-100;
+
+}
+.textbox{
+height:35px;
+-moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 0.5px grey;
+    padding:5px;
+
+}
+
+</style>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+<body>
+
+<div class="container">
+<form action="results.php" method="get">
+<center><img src="images/logo.png" width="300" height="100"/></center></br>
+<center><input  id="usr" class="textbox" type="text" name="user_query" required="required" placeholder="Enter Your Query" size="80"/></center>
+</br>
+<center><input class="btn btn-success" type="submit" name="search" value="Search Now" /></center>
+
+
+
+</form>
+
+ <center> <a href="#" data-toggle="popover" title="Available Keywords" data-content="Search Egine" >Available Keywords</a></center>
+</div>
+<hr>
+</br>
+ <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href=#" target="_blank">Bunty Chakraborty</a> </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
